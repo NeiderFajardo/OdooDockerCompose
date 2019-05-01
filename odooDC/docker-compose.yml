@@ -7,12 +7,12 @@ services:
     ports:
       - "8069:8069"
     environment:
-    - HOST=mydb
-    - USER=odoo
-    - PASSWORD=myodoo
+    - HOST=$nombre
+    - USER=$usuario
+    - PASSWORD=$contrasena
   mydb:
     image: postgres:10
     environment:
-      - POSTGRES_DB=postgres
-      - POSTGRES_PASSWORD=myodoo
-      - POSTGRES_USER=odoo
+      - POSTGRES_DB=$postgresdb
+      - POSTGRES_PASSWORD=$postgrespw
+      - POSTGRES_USER=$postgresuser
