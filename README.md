@@ -1,3 +1,4 @@
+![odoo](https://user-images.githubusercontent.com/31807256/57650844-606d6300-7591-11e9-880d-f982be50c2ed.png)
 # OdooDockerCompose
 _El siguiente repositorio contiene un entorno de Odoo haciendo uso de Docker Compose._
 
