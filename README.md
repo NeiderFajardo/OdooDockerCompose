@@ -41,9 +41,9 @@ _Para montar la aplicacion simplemente ejecutamos: docker-compose up Una vez que
 
 ## Autores 
 
-* **Cristian Camilo Cuervo Castillo - 20142020010
-* **Edvard Frederick Bareño Castellanos - 20142020014
-* **Neider Alejandro Fajardo Cardona - 20142020025
+**Cristian Camilo Cuervo Castillo - 20142020010
+**Edvard Frederick Bareño Castellanos - 20142020014
+**Neider Alejandro Fajardo Cardona - 20142020025
 
 ## Referencias
 * https://www.odoo.com/es_ES/page/project-management
