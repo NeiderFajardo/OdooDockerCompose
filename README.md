@@ -9,7 +9,8 @@ _Odoo es un software de ERP (sistemas de planificación de recursos empresariale
 _ Nos permite programar un equipo con trabajadores en distintos proyectos teniendo en cuenta las vacaciones de cada empleado. Planificar con antelación tareas para el futuro con previsiones basadas en datos comparables de proyectos pasados y estimar fechas límite con más precisión. Ademas compara previsiones con hojas de horas reales para aumentar la rentabilidad. Esto nos permite optimizar el rendimiento de nuestro proyecto._
 ## Procedimiento 
 _Primero hemos de crear una configuración de Docker-Compose, la cual llamaremos docker-compose.yml como se muestra a continuación._
-'''
+      
+```
 version: '2'
 services:
   web:
@@ -28,7 +29,8 @@ services:
       - POSTGRES_DB=$postgresdb
       - POSTGRES_PASSWORD=$postgrespw
       - POSTGRES_USER=$postgresuser
-'''
+      
+```
 _La forma más fácil de ejecutar este contenedor es en modo privilegiado, ya que tendrá todos los permisos y el acceso necesarios para construir contenedores de ventana acoplable._
 
 _Para montar la aplicacion simplemente ejecutamos: docker-compose up Una vez que el servicio esté listo, puede acceder a él desde el navegador con localhost:8080._
