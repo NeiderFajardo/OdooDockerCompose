@@ -6,8 +6,11 @@ _El siguiente repositorio contiene un entorno de Odoo haciendo uso de Docker Com
 _Compose es una herramienta para definir y ejecutar aplicaciones Docker de múltiples contenedores. Docker-Compose, utiliza un archivo YAML para configurar los servicios de su aplicación. Luego, con un solo comando, puede crear e iniciar todos los servicios desde su configuración._
 
 ## Odoo 
+
 _Odoo es un software de ERP (sistemas de planificación de recursos empresariales) integrado. Nosotros haremos uso de su version de gestión de proyectos._
-_ Nos permite programar un equipo con trabajadores en distintos proyectos teniendo en cuenta las vacaciones de cada empleado. Planificar con antelación tareas para el futuro con previsiones basadas en datos comparables de proyectos pasados y estimar fechas límite con más precisión. Ademas compara previsiones con hojas de horas reales para aumentar la rentabilidad. Esto nos permite optimizar el rendimiento de nuestro proyecto._
+
+_Nos permite programar un equipo con trabajadores en distintos proyectos teniendo en cuenta las vacaciones de cada empleado. Planificar con antelación tareas para el futuro con previsiones basadas en datos comparables de proyectos pasados y estimar fechas límite con más precisión. Ademas compara previsiones con hojas de horas reales para aumentar la rentabilidad. Esto nos permite optimizar el rendimiento de nuestro proyecto._
+
 ## Procedimiento 
 _Primero hemos de crear una configuración de Docker-Compose, la cual llamaremos docker-compose.yml como se muestra a continuación._
       
